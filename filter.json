@@ -1,0 +1,18 @@
+{
+    "to_string": [        
+        {
+            "FROM": "unwanted@email.com"
+        },
+        {
+            "FROM": "next@unwanted.com",
+            "NOT FROM": ["this@stays.com", "andthis@stays.com", "this@stays.too"],
+            "SUBJECT": "Deletes emails with a given subject but NOT FROM selected contacts. Only messages older then 14 days.",
+            "BEFORE": 14
+        },
+        {
+            "FROM": "another@unwanted.pl",
+            "SUBJECT": "Deletes emails with a given subject FROM selected contact",
+            "BEFORE": 3
+        }
+    ]
+}
