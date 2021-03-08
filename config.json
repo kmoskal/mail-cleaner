@@ -1,5 +1,5 @@
 { 
-    "host": "example.com"
+    "host": "example.com",
     "login": "admin@example.com",
     "password": "password",
     "email": "address.for@sending.report.com"
